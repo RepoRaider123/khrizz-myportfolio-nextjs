@@ -1,0 +1,61 @@
+@tailwind base;        /* Include the base styles provided by Tailwind */
+@tailwind components;  /* Include the component styles provided by Tailwind */
+@tailwind utilities;   /* Include the utility classes provided by Tailwind */
+
+@layer base { /* Start defining custom base styles */
+
+  /* Define custom root variables (useful for theme customization) */
+  :root {
+    --radius: 0.5rem;  /* Custom variable for border radius used across the site */
+  }
+
+  /* Style for the body element */
+  body {
+    @apply font-primary bg-primary text-white leading-loose; 
+    /* Apply the following Tailwind classes to the body:
+      - font-primary: Custom primary font (defined elsewhere)
+      - bg-primary: Custom background color (defined elsewhere)
+      - text-white: Text color set to white
+      - leading-loose: Loose line height for better readability */
+  }
+
+  /* Custom h1 style (for large headings) */
+  .h1 {
+    @apply text-[48px] xl:text-[70px] leading-[1.1] font-semibold;
+    /* Apply Tailwind classes to h1:
+      - text-[48px]: Set font size to 48px by default
+      - xl:text-[70px]: Set font size to 70px on larger screens (xl)
+      - leading-[1.1]: Set line height to 1.1 for better spacing
+      - font-semibold: Set font weight to semi-bold */
+  }
+
+  /* Custom h2 style (for medium-sized headings) */
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+    /* Apply Tailwind classes to h2:
+      - text-[36px]: Set font size to 36px by default
+      - xl:text-[48px]: Set font size to 48px on larger screens (xl)
+      - leading-[1.1]: Set line height to 1.1
+      - font-semibold: Set font weight to semi-bold */
+  }
+
+  /* Custom h3 style (for smaller headings) */
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+    /* Apply Tailwind classes to h3:
+      - text-[20px]: Set font size to 20px by default
+      - xl:text-[24px]: Set font size to 24px on larger screens (xl)
+      - leading-[1.1]: Set line height to 1.1
+      - font-semibold: Set font weight to semi-bold */
+  }
+
+  /* Custom text style for adding an outline effect */
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff; /* Add a white text outline effect */
+  }
+
+  /* Custom text style for adding an outline effect on hover */
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99; /* Change text outline color to green when hovered */
+  }
+}
