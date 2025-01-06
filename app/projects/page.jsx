@@ -28,7 +28,7 @@ const projects = [
     description:
       "A simple and efficient web app for managing daily tasks. Users can create, update, and delete tasks with an intuitive checkbox interface. Responsive design ensures seamless use across devices, making it easy to stay organized and productive.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/projects/project1.jpg",
+    image: "/assets/project/project1.jpg",
     live: "https://to-do-list-app-102314.netlify.app",
     github: "https://github.com/RepoRaider123/Todo-list-html-css-js",
   },
@@ -39,7 +39,7 @@ const projects = [
     description:
       "A responsive web application providing real-time weather updates and detailed forecasts. Users can search for cities to view current conditions and temperature trends. Dynamic visuals and a clean design enhance the user experience, adapting to different weather scenarios.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/projects/project2.jpg",
+    image: "/assets/project/project2.jpg",
     live: "https://weather-app-103123.netlify.app",
     github: "https://github.com/RepoRaider123/Weather-App-html-css-js",
   },
@@ -50,7 +50,7 @@ const projects = [
     description:
       "A visually appealing and responsive website showcasing modern design. Built with HTML, CSS, and JavaScript, it highlights clean layouts, smooth animations, and cross-device compatibility, demonstrating front-end development skills.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/projects/project3.jpg",
+    image: "/assets/project/project3.jpg",
     live: "https://tech-website-321309.netlify.app/",
     github: "https://github.com/RepoRaider123/TechWebsite-html-css-js",
   },
