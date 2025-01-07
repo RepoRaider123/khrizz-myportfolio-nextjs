@@ -115,9 +115,9 @@ const Contact = () => {
               onSubmit={handleSubmit} // Handle form submission
               autoComplete="off" // Disable browser auto-complete for form fields
             >
-              <h3 className="text-4xl text-accent">Let's work together</h3>
+              <h3 className="text-4xl text-accent">Let's connect.</h3>
               <p className="text-white/60 text-justify">
-                Looking to join a dynamic team! Reach out to discuss how my skills can contribute to your company's success.
+                Excited to join a dynamic team where I can collaborate, contribute, and bring innovative ideas to life!
               </p>
 
               {/* Form Inputs */}
